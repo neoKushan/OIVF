@@ -29,6 +29,23 @@ body > section {
     margin-bottom: 10px;
   }
 
+  .media {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; 
+    height: 0;
+    width: 100%;
+    overflow: hidden;
+  } 
+
+  iframe, object, embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
   /* facts */
 
   #facts{
@@ -113,6 +130,7 @@ header{
     background: url('../Images/dinosaur-footprints-dinosaur-trackways-colour.png') repeat;
     text-align: center;
     color: #353637;
+    padding-bottom: 30px;
   }
   
   #introduction h1{
@@ -132,7 +150,12 @@ header{
     color: #ffffff;
     background: #353637;
     text-align: center;
+    padding-bottom: 30px;
   }
+
+img {
+  max-width: 90%;
+}
 
 /* Footer */
 
@@ -183,5 +206,13 @@ article#main-col{
 
     #introduction h1{
         margin-top: 40px;
+    }
+
+    .container {
+      width: 90%;
+    }
+
+    figure {
+      margin: 0;
     }
 }
